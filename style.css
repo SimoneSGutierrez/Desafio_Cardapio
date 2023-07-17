@@ -3,11 +3,8 @@ body{
     font-family: "Gill Sans", sans-serif;
     background-image: url("https://img.freepik.com/fotos-gratis/vista-superior-deliciosa-composicao-da-comida-brasileira_23-2148739226.jpg?w=360&t=st=1689553242~exp=1689553842~hmac=8ef3890daa3b46db49d4e3f0d707ff00c9bea4a5704ccd44b9ff9555c942a272"); 
     width:auto;
-    padding:1%;
-  margin:3%;
-  margin-left: 10%;
-  margin-right: 10%;
-  max-width: 600px;
+    margin:auto;
+    max-width: 600px;
 }
 
 #divdestaque{
