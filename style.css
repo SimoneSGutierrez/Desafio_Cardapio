@@ -1,41 +1,104 @@
 body{
-    font-size: 70%;
-    font-family: "Gill Sans", sans-serif;
-    background-image: url("https://img.freepik.com/fotos-gratis/vista-superior-deliciosa-composicao-da-comida-brasileira_23-2148739226.jpg?w=360&t=st=1689553242~exp=1689553842~hmac=8ef3890daa3b46db49d4e3f0d707ff00c9bea4a5704ccd44b9ff9555c942a272"); 
-    width:auto;
-    margin:auto;
-    max-width: 600px;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://img.freepik.com/fotos-gratis/deliciosa-composicao-de-comida-brasileira-com-espaco-de-copia_23-2148739217.jpg?w=740&t=st=1689502676~exp=1689503276~hmac=2a697ade2d089a3e311c31b926eb89e9c549dbb4f5f097b725279f7b73252e1d");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-style:none;
+    /*margin:auto;*/
+    padding:2%
+  /*max-width: 600px*/;
 }
 
 #divdestaque{
-    border-color:forestgreen;
-    background: rgb(255,241,0);
+  display:flex;
+  flex-wrap: wrap;
+  /*border-color:rgb(96, 131, 96);
+  background: rgb(255,241,0);*/
   background:rgb(238, 111, 26);
-  padding: 1%;
-  margin:1%;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
+  background-size: 20%;
+  padding: 0%;
+  margin:0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  align-items: center;
 }
 .div2{
-    border-color: 10px forestgreen;
-    background: rgb(255,241,0);
-    background:forestgreen;
-    padding:1%;
-    margin:5%;
-    margin-left: 5%;
-    margin-right: 5%;}
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  /*border-color: 10px forestgreen;*/
+  /*background: rgb(255,241,0);
+  background:forestgreen;*/
+  padding:0%;
+  margin:0%;
+  margin-left: 10%;
+  margin-right: 10%;}
+
+.div3{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    /*border-color: 10px forestgreen;*/
+    /*background: rgb(255,241,0);
+    background:forestgreen;*/
+    padding:0%;
+    margin:0%;
+    margin-left: 10%;
+    margin-right: 10%;}
+
+.div4{
+  display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    /*border-color: 10px forestgreen;*/
+    /*background: rgb(255,241,0);
+    background:forestgreen;*/
+    padding: 0%;
+    margin: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.div5{
+  display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    /*border-color: 10px forestgreen;*/
+    /*background: rgb(255,241,0);
+    background:forestgreen;*/
+    padding:0%;
+    margin:0%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 h1{
-    font-size: 37pt;
+    font-size: 20pt;
     font-style:normal;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:white
+    color:white;
+    text-align: center;
+}
+
+h2{
+  font-size: 12pt;
+  font-style:normal;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  font-size: 15px;
 }
 footer{
   background-color: white;
   border: darkgreen 20px;
   font-size: 15pt;
-  font-weight: bold;
   text-align: center;
 }
+
